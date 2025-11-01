@@ -17,6 +17,12 @@ Course URL: https://mitxonline.mit.edu/courses/course-v1:MITxT+24.09x/
   - `reading.md` - Complete reading list
   - `Signed up.md` - Enrollment confirmation
 
+- **`readings/`** - Course reading materials (PDFs):
+  - MIT course handouts with excerpts from original papers + talking points
+  - Numbered 1-24 corresponding to the reading list in `reading.md`
+  - Currently contains PDFs 1-5: Searle (1990, 1980), Block, Churchlands, Turing
+  - Note: These are NOT full original papers, but curated excerpts with MIT commentary
+
 - **`sessions/`** - Study session notes, timestamped as `YYYY-MM-DD-HH-MM-SS.md`
   - Each session file documents progress, insights, and planning
   - Session files track which lectures/readings have been completed
@@ -49,7 +55,7 @@ So always read the most recent session files when starting in this directory.
 
 The markdown in `docs/` contains critical course information:
 - Always check `dates.md` for upcoming deadlines
-- `reading.md` shows the full reading list (24 texts)
+- `reading.md` shows the full reading list (24 texts) - PDFs for some readings are in `readings/`
 - `welcome.md` may have recent instructor updates
 - Part 1/2 markdown files show lecture structure
 
